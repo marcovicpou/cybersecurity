@@ -1,0 +1,271 @@
+{
+  "viewports": [
+    {
+      "page": "/",
+      "width": 320,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "/",
+      "width": 360,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "/",
+      "width": 375,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "/",
+      "width": 390,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "/",
+      "width": 414,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "/",
+      "width": 430,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "/",
+      "width": 768,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "/",
+      "width": 1024,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "/",
+      "width": 1280,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "/",
+      "width": 1440,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "/",
+      "width": 1920,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "/projetos/pdv/",
+      "width": 320,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "/projetos/pdv/",
+      "width": 360,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "/projetos/pdv/",
+      "width": 375,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "/projetos/pdv/",
+      "width": 390,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "/projetos/pdv/",
+      "width": 414,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "/projetos/pdv/",
+      "width": 430,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "/projetos/pdv/",
+      "width": 768,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "/projetos/pdv/",
+      "width": 1024,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "/projetos/pdv/",
+      "width": 1280,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "/projetos/pdv/",
+      "width": 1440,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "/projetos/pdv/",
+      "width": 1920,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "/projetos/erp/",
+      "width": 320,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "/projetos/erp/",
+      "width": 360,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "/projetos/erp/",
+      "width": 375,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "/projetos/erp/",
+      "width": 390,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "/projetos/erp/",
+      "width": 414,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "/projetos/erp/",
+      "width": 430,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "/projetos/erp/",
+      "width": 768,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "/projetos/erp/",
+      "width": 1024,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "/projetos/erp/",
+      "width": 1280,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "/projetos/erp/",
+      "width": 1440,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "/projetos/erp/",
+      "width": 1920,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "/projetos/crm/",
+      "width": 320,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "/projetos/crm/",
+      "width": 360,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "/projetos/crm/",
+      "width": 375,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "/projetos/crm/",
+      "width": 390,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "/projetos/crm/",
+      "width": 414,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "/projetos/crm/",
+      "width": 430,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "/projetos/crm/",
+      "width": 768,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "/projetos/crm/",
+      "width": 1024,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "/projetos/crm/",
+      "width": 1280,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "/projetos/crm/",
+      "width": 1440,
+      "status": "passed",
+      "overflow": false
+    },
+    {
+      "page": "/projetos/crm/",
+      "width": 1920,
+      "status": "passed",
+      "overflow": false
+    }
+  ],
+  "errors": [],
+  "http_failures": [],
+  "menu_keyboard_reduced_motion": "passed"
+}

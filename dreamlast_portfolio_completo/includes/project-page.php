@@ -1,0 +1,21 @@
+<?php
+require __DIR__.'/site.php';
+if (!isset($projects[$slug])) { http_response_code(404); exit('Projeto não encontrado.'); }
+$project = $projects[$slug];
+$base = '../../';
+$title = $project['name'].' | Projetos Dream Last';
+$description = $project['summary'];
+$pagePath = rtrim(str_replace('\\','/',dirname($_SERVER['SCRIPT_NAME'] ?? '/projetos/'.$slug.'/index.php')), '/') . '/';
+$sitePath = preg_replace('~projetos/[^/]+/$~', '', $pagePath);
+require __DIR__.'/header.php';
+?>
+<main id="conteudo">
+<section id="inicio" class="case-hero container"><a class="back-link" href="../../#projetos">← Todos os projetos</a><div class="case-title"><div><span class="eyebrow"><?= escape($project['number']) ?> / <?= escape($project['category']) ?></span><h1><?= escape($project['name']) ?></h1><p><?= escape($project['headline']) ?></p></div><a class="button button-dark" href="../../sistemas/<?= escape($slug) ?>/" target="_blank" rel="noopener noreferrer">Explorar demonstração <span class="sr-only">(nova aba)</span><?= arrow() ?></a></div><ul class="technology-list" aria-label="Tecnologias utilizadas"><?php foreach ($project['technologies'] as $tech): ?><li><?= escape($tech) ?></li><?php endforeach; ?></ul><figure class="case-cover"><div class="visual-bar"><span><?= escape($project['screen']) ?></span><span>DREAM LAST</span></div><?php screenshot($project, $base, false, true); ?><figcaption>Captura real do sistema, com dados de demonstração.</figcaption></figure></section>
+<section class="case-overview section-pad"><div class="container case-grid"><div><span class="eyebrow">O PROJETO</span><h2><?= escape($project['short']) ?><br>em contexto.</h2></div><div><p class="lead"><?= escape($project['description']) ?></p><div class="case-text"><h3>O problema</h3><p><?= escape($project['challenge']) ?></p><h3>A solução</h3><p><?= escape($project['solution']) ?></p></div></div></div></section>
+<section class="case-features section-pad"><div class="container case-grid"><div><span class="eyebrow">FUNCIONALIDADES</span><h2>O que está<br>no sistema.</h2></div><ul class="feature-list"><?php foreach ($project['features'] as $index=>$feature): ?><li><span><?= sprintf('%02d', $index+1) ?></span><?= escape($feature) ?></li><?php endforeach; ?></ul></div></section>
+<section class="case-gallery section-pad"><div class="container"><div class="section-heading"><div><span class="eyebrow">POR DENTRO DO PROJETO</span><h2><?= escape($project['detail_screen']) ?>.</h2></div><p>Interfaces do próprio sistema.<br>Sem mockups ou dados de clientes.</p></div><figure class="gallery-image"><?php screenshot($project, $base, true); ?><figcaption><?= escape($project['detail_screen']) ?> · <?= escape($project['name']) ?></figcaption></figure></div></section>
+<section class="case-result section-pad"><div class="container case-grid"><div><span class="eyebrow">RESULTADO</span><h2>Uma solução<br>para explorar.</h2></div><div><p class="lead"><?= escape($project['result']) ?></p><a class="text-link" href="../../sistemas/<?= escape($slug) ?>/" target="_blank" rel="noopener noreferrer">Abrir demonstração <span class="sr-only">(nova aba)</span><?= arrow() ?></a></div></div></section>
+<section class="related section-pad"><div class="container"><div class="section-heading"><div><span class="eyebrow">CONTINUE EXPLORANDO</span><h2>Outros projetos.</h2></div></div><div class="related-grid"><?php foreach ($projects as $other): if ($other['slug']===$slug) continue; ?><a class="related-project" href="../<?= escape($other['slug']) ?>/"><?php screenshot($other, $base); ?><div><span><?= escape($other['category']) ?></span><h3><?= escape($other['name']) ?> <?= arrow() ?></h3></div></a><?php endforeach; ?></div></div></section>
+<section id="contato" class="contact section-pad"><div class="container contact-grid"><div><span class="eyebrow">SEU PRÓXIMO PROJETO</span><h2>Uma solução com<br>a sua realidade.</h2><p>Vamos conversar sobre o que seu negócio precisa?</p></div><div class="contact-actions"><a class="button button-light" href="<?= escape($contactUrl) ?>">Solicitar projeto <?= arrow() ?></a><a class="contact-email" href="mailto:<?= escape($contactEmail) ?>"><?= escape($contactEmail) ?></a></div></div></section>
+</main>
+<?php require __DIR__.'/footer.php'; ?>

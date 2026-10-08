@@ -1,0 +1,166 @@
+[
+  {
+    "path": "/sistemas/pdv/index.php?page=dashboard",
+    "status": "passed"
+  },
+  {
+    "path": "/sistemas/pdv/index.php?page=products",
+    "status": "passed"
+  },
+  {
+    "path": "/sistemas/pdv/index.php?page=customers",
+    "status": "passed"
+  },
+  {
+    "path": "/sistemas/pdv/index.php?page=pos",
+    "status": "passed"
+  },
+  {
+    "path": "/sistemas/pdv/index.php?page=sales",
+    "status": "passed"
+  },
+  {
+    "path": "/sistemas/pdv/index.php?page=cash",
+    "status": "passed"
+  },
+  {
+    "path": "/sistemas/pdv/index.php?page=reports",
+    "status": "passed"
+  },
+  {
+    "path": "/sistemas/pdv/index.php?page=users",
+    "status": "passed"
+  },
+  {
+    "path": "/sistemas/pdv/index.php?page=settings",
+    "status": "passed"
+  },
+  {
+    "path": "/sistemas/pdv/index.php?page=suppliers",
+    "status": "passed"
+  },
+  {
+    "path": "/sistemas/pdv/index.php?page=purchases",
+    "status": "passed"
+  },
+  {
+    "path": "/sistemas/pdv/index.php?page=finance",
+    "status": "passed"
+  },
+  {
+    "path": "/sistemas/pdv/index.php?page=quotes",
+    "status": "passed"
+  },
+  {
+    "path": "/sistemas/pdv/index.php?page=returns",
+    "status": "passed"
+  },
+  {
+    "path": "/sistemas/pdv/index.php?page=inventory",
+    "status": "passed"
+  },
+  {
+    "path": "/sistemas/pdv/index.php?page=audit",
+    "status": "passed"
+  },
+  {
+    "path": "/sistemas/erp/index.php",
+    "status": "passed"
+  },
+  {
+    "path": "/sistemas/erp/modules/vendas/index.php",
+    "status": "passed"
+  },
+  {
+    "path": "/sistemas/erp/modules/relatorios/index.php",
+    "status": "passed"
+  },
+  {
+    "path": "/sistemas/erp/modules/configuracoes/index.php",
+    "status": "passed"
+  },
+  {
+    "path": "/sistemas/erp/modules/estoque/index.php",
+    "status": "passed"
+  },
+  {
+    "path": "/sistemas/erp/modules/clientes/index.php",
+    "status": "passed"
+  },
+  {
+    "path": "/sistemas/erp/modules/compras/index.php",
+    "status": "passed"
+  },
+  {
+    "path": "/sistemas/erp/modules/financeiro/index.php",
+    "status": "passed"
+  },
+  {
+    "path": "/sistemas/erp/modules/fornecedores/index.php",
+    "status": "passed"
+  },
+  {
+    "path": "/sistemas/erp/modules/funcionarios/index.php",
+    "status": "passed"
+  },
+  {
+    "path": "/sistemas/erp/modules/produtos/index.php",
+    "status": "passed"
+  },
+  {
+    "operation": "ERP produto original: criar e editar",
+    "status": "passed"
+  },
+  {
+    "path": "/sistemas/crm/index.php?module=dashboard",
+    "status": "passed"
+  },
+  {
+    "path": "/sistemas/crm/index.php?module=clientes",
+    "status": "passed"
+  },
+  {
+    "path": "/sistemas/crm/index.php?module=leads",
+    "status": "passed"
+  },
+  {
+    "path": "/sistemas/crm/index.php?module=oportunidades",
+    "status": "passed"
+  },
+  {
+    "path": "/sistemas/crm/index.php?module=tarefas",
+    "status": "passed"
+  },
+  {
+    "path": "/sistemas/crm/index.php?module=projetos",
+    "status": "passed"
+  },
+  {
+    "path": "/sistemas/crm/index.php?module=tickets",
+    "status": "passed"
+  },
+  {
+    "path": "/sistemas/crm/index.php?module=financeiro",
+    "status": "passed"
+  },
+  {
+    "path": "/sistemas/crm/index.php?module=agenda",
+    "status": "passed"
+  },
+  {
+    "path": "/sistemas/crm/index.php?module=relatorios",
+    "status": "passed"
+  },
+  {
+    "path": "/sistemas/crm/index.php?module=usuarios",
+    "status": "passed"
+  },
+  {
+    "path": "/sistemas/crm/index.php?module=auditoria",
+    "status": "passed"
+  },
+  {
+    "path": "/sistemas/crm/index.php?module=configuracoes",
+    "status": "passed"
+  }
+]

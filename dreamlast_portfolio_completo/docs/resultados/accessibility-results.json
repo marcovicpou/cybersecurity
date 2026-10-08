@@ -1,0 +1,60 @@
+[
+  {
+    "path": "/",
+    "width": 390,
+    "violations": [],
+    "incomplete": [
+      "color-contrast"
+    ]
+  },
+  {
+    "path": "/",
+    "width": 1440,
+    "violations": [],
+    "incomplete": [
+      "color-contrast"
+    ]
+  },
+  {
+    "path": "/projetos/pdv/",
+    "width": 390,
+    "violations": [],
+    "incomplete": [
+      "color-contrast"
+    ]
+  },
+  {
+    "path": "/projetos/pdv/",
+    "width": 1440,
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "path": "/projetos/erp/",
+    "width": 390,
+    "violations": [],
+    "incomplete": [
+      "color-contrast"
+    ]
+  },
+  {
+    "path": "/projetos/erp/",
+    "width": 1440,
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "path": "/projetos/crm/",
+    "width": 390,
+    "violations": [],
+    "incomplete": [
+      "color-contrast"
+    ]
+  },
+  {
+    "path": "/projetos/crm/",
+    "width": 1440,
+    "violations": [],
+    "incomplete": []
+  }
+]

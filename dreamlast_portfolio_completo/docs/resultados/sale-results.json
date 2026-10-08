@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "workflow": [
+    "venda",
+    "comprovante",
+    "pagamento em dinheiro",
+    "troco",
+    "baixa de estoque"
+  ],
+  "test_data_removed": true
+}
