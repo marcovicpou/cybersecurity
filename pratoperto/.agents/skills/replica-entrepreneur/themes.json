@@ -1,0 +1,9 @@
+{
+  "price": ["price", "pricing", "expensive", "cost", "billing", "subscription"],
+  "reliability": ["bug", "broken", "crash", "slow", "freeze", "unreliable"],
+  "support": ["support", "customer service", "response", "help"],
+  "usability": ["confusing", "hard to use", "complicated", "clunky", "ui", "ux"],
+  "missing_features": ["missing", "wish", "please add", "needs", "feature request"],
+  "integrations": ["integration", "connect", "sync", "api"],
+  "mobile": ["mobile", "android", "iphone", "ios", "app"]
+}

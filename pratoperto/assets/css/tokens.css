@@ -1,0 +1,6 @@
+:root {
+  --text:#183b2e;--muted-text:#52625b;--background:#fafbf8;--surface:#fff;
+  --primary:#176648;--on-primary:#fff;--soft:#edf4e9;--error:#a62f35;--dark:#163d2e;--on-dark:#fff;
+  --space-1:4px;--space-2:8px;--space-3:12px;--space-4:16px;--space-6:24px;--space-8:32px;--space-12:48px;--space-16:64px;
+  --radius-small:8px;--radius-card:18px;--radius-hero:28px;--motion:180ms;--content-width:1280px;
+}

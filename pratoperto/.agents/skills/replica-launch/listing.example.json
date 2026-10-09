@@ -1,0 +1,5 @@
+{
+  "avoid": ["Original App"],
+  "app_store": {"name":"My App","subtitle":"A clear subtitle","promotional_text":"","keywords":"","description":""},
+  "google_play": {"title":"My App","short_description":"","full_description":""}
+}

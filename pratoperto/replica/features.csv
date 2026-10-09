@@ -1,0 +1,25 @@
+feature,area,priority,original,clone,notes
+Endereço validado,endereço,must,yes,yes,Hipótese do recorte; sem geocodificação; implementado e verificado no recorte local
+Busca e categorias,catálogo,must,yes,yes,Hipótese do recorte; implementado e verificado no recorte local
+Cardápio por restaurante,cardápio,must,yes,yes,Hipótese do recorte; implementado e verificado no recorte local
+Opções e observações,cardápio,must,yes,yes,Hipótese do recorte; implementado e verificado no recorte local
+Carrinho e quantidades,carrinho,must,yes,yes,Hipótese do recorte; implementado e verificado no recorte local
+Taxas e mínimo explícitos,checkout,must,yes,yes,Hipótese do recorte; implementado e verificado no recorte local
+Pedido persistente,checkout,must,yes,yes,Pedido local sem cobrança; implementado e verificado no recorte local
+Histórico e detalhe,pedidos,must,yes,yes,Visitante atual; implementado e verificado no recorte local
+Mobile e teclado,interface,must,yes,yes,390 e 1440 pixels; implementado e verificado no recorte local
+Favoritos,catálogo,should,yes,yes,Hipótese do recorte; implementado e verificado no recorte local
+Filtros e ordenação,catálogo,should,yes,yes,Hipótese do recorte; implementado e verificado no recorte local
+Cupom de demonstração,checkout,should,yes,yes,Regra própria; implementado e verificado no recorte local
+Cancelamento,pedidos,should,yes,yes,Regra própria para demo; implementado e verificado no recorte local
+Pagamento real,integração,must,yes,skip,Sem contas/credenciais de provedor; apenas demonstração
+Entregadores e GPS,integração,must,yes,skip,Dados e operação fora do recorte
+Rede e avaliações reais,conteúdo,must,yes,skip,Sem acesso a dados licenciados
+Transparência do total,checkout,must,no,yes,Diferenciador proposto; apoio fino em um review de mínimo; implementado e verificado no recorte local
+Apagar dados locais,privacidade,should,no,yes,Diferenciador proposto; implementado e verificado no recorte local
+Mínimo restante antes de confirmar,checkout,should,no,yes,Proposta ligada a um review de mínimo; teste API e checkout
+Cupons visíveis e verificáveis,checkout,should,no,yes,Promoção apresentada tem código válido; evidência fina
+Busca por nome de prato,catálogo,should,no,yes,Retorna restaurantes com esse prato; teste pizza
+Confirmação antes de substituir carrinho,carrinho,should,no,yes,Hipótese de usabilidade própria; E2E de troca
+Checkout idempotente e versão de carrinho,backend,must,no,yes,Teste de repetição e versão antiga
+Comparação de pratos entre lojas,catálogo,could,no,no,Proposta futura com uma citação; fora do recorte atual

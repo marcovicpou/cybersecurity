@@ -1,0 +1,14 @@
+# Production preflight
+- [ ] E2E tests pass
+- [ ] No open S1/S2 bugs
+- [ ] All must-have parity features complete
+- [ ] Brand sweep clean
+- [ ] Store listing lint passes if applicable
+- [ ] Production build passes
+- [ ] Privacy policy / terms / processors documented
+- [ ] Account deletion works if accounts exist
+- [ ] Production DB/services separate and backed up
+- [ ] OAuth/payment/email production configuration verified
+- [ ] Domain/HTTPS/canonical redirects verified
+- [ ] Error tracking and uptime monitoring enabled
+- [ ] Explicit user approval to go live

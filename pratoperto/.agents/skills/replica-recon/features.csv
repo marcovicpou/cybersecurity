@@ -1,0 +1,4 @@
+feature,area,priority,original,clone,notes
+Example core action,core flow,must,yes,no,
+Example settings option,settings,should,yes,no,
+Licensed catalog,content,must,yes,skip,Licensed/owned content; functionality only
